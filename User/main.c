@@ -48,6 +48,9 @@ int main(void)
     LED2 = 0;
     LED3 = 0;
     Usart_SendByte( DEBUG_USARTx,LED1);
+    Usart_SendByte( DEBUG_USARTx,"LED1");
+    Usart_SendByte( DEBUG_USARTx,"LED1");
+    Usart_SendByte( DEBUG_USARTx,"LED1");
 		LED1_ON;			  // ÁÁ
     SOFT_DELAY;
     LED1_OFF;		   // Ãð
